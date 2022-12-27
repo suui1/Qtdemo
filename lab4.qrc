@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/back_android.svg</file>
+        <file>image/Login.svg</file>
+        <file>image/logout.svg</file>
+        <file>image/add.svg</file>
+        <file>image/delete_fill.svg</file>
+        <file>image/modify.svg</file>
+        <file>image/search fill.svg</file>
+    </qresource>
+</RCC>

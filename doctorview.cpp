@@ -1,12 +1,16 @@
 #include "doctorview.h"
 #include "ui_doctorview.h"
+<<<<<<< HEAD
 #include "idatabase.h"
+=======
+>>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
 
 DoctorView::DoctorView(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::DoctorView)
 {
     ui->setupUi(this);
+<<<<<<< HEAD
 
 
     ui->tableView->setSelectionBehavior(QAbstractItemView::SelectRows);
@@ -19,12 +23,15 @@ DoctorView::DoctorView(QWidget *parent) :
         ui->tableView->setModel(iDatabase.DoctorTabModel);
         ui->tableView->setSelectionModel(iDatabase.theDoctorSelection);
     }
+=======
+>>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
 }
 
 DoctorView::~DoctorView()
 {
     delete ui;
 }
+<<<<<<< HEAD
 
 void DoctorView::on_findDoctor_button_clicked()
 {
@@ -52,3 +59,5 @@ void DoctorView::on_delDoctor_button_clicked()
     IDatabase::getInstance().deleteCurrentDoctor();
 }
 
+=======
+>>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6

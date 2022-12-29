@@ -54,6 +54,7 @@ void Masterview::goDoctorView()
 
 }
 
+<<<<<<< HEAD
 void Masterview::goDoctorEditView(int rowNo)
 {
     qDebug() << "goDoctorEditView";
@@ -64,6 +65,8 @@ void Masterview::goDoctorEditView(int rowNo)
     connect(doctorEditView,SIGNAL(goPreviousView()),this,SLOT(goPreviousView()));
 }
 
+=======
+>>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
 void Masterview::goDepartmentView()
 {
     qDebug() << "goDepartmentView";

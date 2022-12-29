@@ -8,7 +8,10 @@
 #include "patienteditview.h"
 #include "patientview.h"
 #include "welcomeview.h"
+<<<<<<< HEAD
 #include "doctoreditview.h"
+=======
+>>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
 
 #include <QWidget>
 
@@ -29,14 +32,20 @@ public slots:
     void goLoginView();
     void goWelcomView();
     void goDoctorView();
+<<<<<<< HEAD
     void goDoctorEditView(int rowNo);
+=======
+>>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
     void goDepartmentView();
     void goPatientEditView(int rowNo);
     void goPatientView();
     void goPreviousView();
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
 private slots:
 
     void on_btlog_clicked();
@@ -58,7 +67,10 @@ private:
     DepartmentView *departmentView;
     LoginView *loginView;
     PatientEditView *patientEditView;
+<<<<<<< HEAD
     DoctorEditView *doctorEditView;
+=======
+>>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
 
 };
 #endif // MASTERVIEW_H

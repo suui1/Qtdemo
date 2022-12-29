@@ -90,6 +90,7 @@ int IDatabase::addNewPatient()
     return curIndex.row();
 }
 
+<<<<<<< HEAD
 bool IDatabase::initDoctorModel()
 {
     DoctorTabModel = new QSqlTableModel(this,database);
@@ -145,6 +146,8 @@ int IDatabase::addNewDoctor()
     return curIndex.row();
 }
 
+=======
+>>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
 
 
 

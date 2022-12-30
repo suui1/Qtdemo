@@ -22,7 +22,7 @@ SOURCES += \
     patientview.cpp \
     welcomeview.cpp
     doctoreditview.cpp \
-=======
+
 
     doctorview.cpp \
     idatabase.cpp \
@@ -35,7 +35,7 @@ SOURCES += \
 
 HEADERS += \
     departmentview.h \
-<<<<<<< HEAD \
+
     doctoreditview.h \
     doctorview.h \
     idatabase.h \
@@ -45,8 +45,7 @@ HEADERS += \
     patientview.h \
     welcomeview.h
     doctoreditview.h \
-=======
->>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
+
     doctorview.h \
     idatabase.h \
     loginview.h \

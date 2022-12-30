@@ -23,8 +23,7 @@ DoctorView::DoctorView(QWidget *parent) :
         ui->tableView->setModel(iDatabase.DoctorTabModel);
         ui->tableView->setSelectionModel(iDatabase.theDoctorSelection);
     }
-=======
->>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
+
 }
 
 DoctorView::~DoctorView()

@@ -11,10 +11,19 @@ CONFIG += c++11
 
 SOURCES += \
     departmentview.cpp \
-<<<<<<< HEAD
+<<<<<<< HEAD \
+    doctoreditview.cpp \
+    doctorview.cpp \
+    idatabase.cpp \
+    loginview.cpp \
+    main.cpp \
+    masterview.cpp \
+    patienteditview.cpp \
+    patientview.cpp \
+    welcomeview.cpp
     doctoreditview.cpp \
 =======
->>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
+
     doctorview.cpp \
     idatabase.cpp \
     loginview.cpp \
@@ -26,7 +35,15 @@ SOURCES += \
 
 HEADERS += \
     departmentview.h \
-<<<<<<< HEAD
+<<<<<<< HEAD \
+    doctoreditview.h \
+    doctorview.h \
+    idatabase.h \
+    loginview.h \
+    masterview.h \
+    patienteditview.h \
+    patientview.h \
+    welcomeview.h
     doctoreditview.h \
 =======
 >>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
@@ -40,7 +57,14 @@ HEADERS += \
 
 FORMS += \
     departmentview.ui \
-<<<<<<< HEAD
+<<<<<<< HEAD \
+    doctoreditview.ui \
+    doctorview.ui \
+    loginview.ui \
+    masterview.ui \
+    patienteditview.ui \
+    patientview.ui \
+    welcomeview.ui
     doctoreditview.ui \
 =======
 >>>>>>> 0c6a02efc5febbc04d53b9ab5847bc9493d1f3e6
@@ -57,4 +81,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
+    lab4.qrc \
     lab4.qrc

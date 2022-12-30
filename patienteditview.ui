@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-<<<<<<< HEAD
+
     <width>928</width>
     <height>477</height>
 =======
@@ -18,7 +18,7 @@
   <property name="windowTitle">
    <string>编辑患者信息</string>
   </property>
-<<<<<<< HEAD
+
   <widget class="QWidget" name="layoutWidget">
 =======
   <widget class="QWidget" name="">

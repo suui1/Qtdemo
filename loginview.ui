@@ -82,7 +82,7 @@
         </widget>
        </item>
        <item row="0" column="1">
-<<<<<<< HEAD
+ HEAD
         <widget class="QLineEdit" name="inputUserName">
          <property name="text">
           <string>admin</string>
